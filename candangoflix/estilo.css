@@ -1,0 +1,204 @@
+
+body {
+    background-color: black;
+    color: rgb(255, 0, 13);
+    font-size: 30px;
+}
+
+form {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+input[type="text"], textarea, select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: #fff;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.stars {
+    cursor: pointer;
+}
+
+.star {
+    font-size: 24px;
+    color: #ccc;
+}
+
+.star.selected {
+    color: gold;
+}
+
+button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d32f2f;
+}
+
+
+
+ h3 {
+    color: crimson;
+}
+
+header {
+    width: 99%;
+}
+
+.rodape{
+    height: 80px;
+    width: 99%;
+    position: relative;
+    top: 28vh;
+}
+
+.ex1 {
+    height: 100px;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+.container {
+    display: flex;
+    flex-direction:column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.art {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between; 
+}
+
+    
+.detalhes{
+    background-color: rgba(39, 37, 37, 0.8);
+    border: 1px solid rgb(255, 0, 0);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+#ccontainer{
+    display:flex;
+}
+
+.back-button {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    margin-top: 30px;        
+}
+
+.voltar-btn {
+    background-color: #222;
+    color: rgba(177, 7, 7, 0.87);
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 1px solid #444; 
+    cursor: pointer;
+    border-radius: 5px;
+    text-transform: uppercase; 
+    transition: background-color 0.3s, border-color 0.3s; 
+}
+
+.voltar-btn:hover {
+    background-color: #333;
+    border-color: #555;    
+}
+
+.voltar-btn:focus {
+    outline: none; /
+}
+
+@media (min-width: 1024px) {
+    .container {
+        padding: 40px;
+    }
+
+    .art {
+        gap: 30px;
+    }
+
+    .detalhes {
+        font-size: 32px;
+        padding: 25px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .container {
+        padding: 30px;
+    }
+
+    .art {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .detalhes {
+        font-size: 28px;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    body {
+        font-size: 20px;
+    }
+
+    .container {
+        padding: 15px;
+    }
+
+    .art {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .detalhes {
+        font-size: 24px;
+        padding: 15px;
+    }
+}
