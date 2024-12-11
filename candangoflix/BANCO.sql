@@ -1,5 +1,5 @@
-CREATE DATABASE candangoflix;
-USE candangoflix;
+CREATE DATABASE candangofilmes;
+USE candangofilmes;
 
 CREATE TABLE avaliacoes (
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -12,4 +12,4 @@ CREATE TABLE avaliacoes (
 select *  from avaliacoes
 
 CREATE USER usuario@'localhost' IDENTIFIED BY 'Usuario!';
-GRANT ALL PRIVILEGES ON *.* TO usuario@'localhost' WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON *.* TO usuario@'localhost' WITH GRANT OPTION

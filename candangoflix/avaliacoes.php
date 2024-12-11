@@ -4,9 +4,9 @@ ini_set("startup_display_errors", 1);
 error_reporting(E_ALL);
 
 $servername = "localhost"; 
-$username = "usuario";        
-$password = "Usuario!";           
-$dbname = "candangoflix";   
+$username = "root";        
+$password = "ifsp";           
+$dbname = "candangofilmes";   
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
